@@ -23,26 +23,54 @@ body{
     justify-content: center;
     align-self: center;
 
+
 }
 
-.card1, .card2, .card3{
+.card{
     width: 300px;
-    border: solid 1px ;
     border-radius:10px;
-    margin:30px;
+    margin: 90px 0px 30px 30px;
+    background-color: white;
+    box-shadow: -30px 30px 50px rgb(0, 0, 0, 0.3);
+
 
 }
 
 img {
-    width:250px;
+    width: 300px;
     height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    filter: grayscale();
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
+
+
 }
 
-.box{
-    margin: 30px;
+img:hover{
+    filter:none;
+    transform: scale(1.1);
+
+}
+
+
+
+
+p,h1{
+    padding: 30px;
+
 
 }
 
 h1{
     font-size: 25px;
+    padding-bottom: 10px;
+}
+
+figure{
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
